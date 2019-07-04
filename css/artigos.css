@@ -1,0 +1,33 @@
+
+
+.listagem {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.listArtigo {
+	border: 1px solid #dddddd;
+	  /* height: 48.6%; */
+	  text-align: center;
+	  flex: 1;
+	  margin: 16px;
+}
+
+.metade {
+	width: 50%;
+	margin: auto;
+}
+
+.listArtigo img {
+	max-width: 100%;
+}
+
+@media (max-width:768px) {
+	.listagem {
+		flex-direction: column;
+	}
+	.metade {
+		width: 100%;
+	}
+}
